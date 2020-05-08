@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="hsr_co602_gripper_onhand_kinect2" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="hsr_co605_dual_arm_with_gripper" xmlns:xacro="http://ros.org/wiki/xacro">
 
 
 <xacro:include filename="$(find hsr_description)/urdf/hsr_co605-test.urdf" />

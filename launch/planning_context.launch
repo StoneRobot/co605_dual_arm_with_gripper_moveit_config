@@ -10,7 +10,7 @@
   <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="$(find hsr_description)/urdf/hsr_co605_dual_arm_with_gripper.urdf"/>
 
   <!-- The semantic description that corresponds to the URDF -->
-  <param name="$(arg robot_description)_semantic" textfile="$(find co605_dual_arm_with_gripper_moveit_config)/config/hsr_co602_gripper_onhand_kinect2.srdf" />
+  <param name="$(arg robot_description)_semantic" textfile="$(find co605_dual_arm_with_gripper_moveit_config)/config/hsr_co605_dual_arm_with_gripper.srdf" />
 
   <!-- Load updated joint limits (override information from URDF) -->
   <group ns="$(arg robot_description)_planning">

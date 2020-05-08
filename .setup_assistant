@@ -4,7 +4,7 @@ moveit_setup_assistant_config:
     relative_path: urdf/hsr_co605_dual_arm_with_gripper.urdf
     xacro_args: "--inorder "
   SRDF:
-    relative_path: config/hsr_co602_gripper_onhand_kinect2.srdf
+    relative_path: config/hsr_co605_dual_arm_with_gripper.srdf
   CONFIG:
     author_name: st
     author_email: st@st.com
